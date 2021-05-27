@@ -3,6 +3,7 @@
 <!-- Head -->
 
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Newsweek</title>
 
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -87,8 +88,8 @@
         <div class="main-article">
           <img class="img-responsive" src="images/main/main_main.jpg">
           <div class="main-article-text">
-            <h2 class="article-cat">U.S.</h2>
-            <h2 class="article-title">Justice Dept. to Force Reforms</h2>
+            <h2 class="article-cat"><a href="#">U.S.</a></h2>
+            <h2 class="article-title"><a href="#">Justice Dept. to Force Reforms</a></h2>
             <p class="article-summary">"The residents of Ferguson have waited nearly a year for their city to adopt an
               agreement."</p>
           </div>
@@ -98,43 +99,47 @@
           <div class="col-xs-12 col-sm-6 article vertical-divider">
             <img class="img-responsive" src="images/main/main1.png">
             <div class="article-text">
-              <h2 class="article-cat">U.S.</h2>
-              <h2 class="article-title">Gravitational Waves Detected, Proving Einstein Right</h2>
-              <p class="article-info">"This [was] truly a scientific moon shot, and we landed on the moon."</p>
+              <h2 class="article-cat"><a href="#">U.S.</a></h2>
+              <h2 class="article-title"><a href="#">Gravitational Waves Detected, Proving Einstein Right</a></h2>
+              <p class="article-summary">"This [was] truly a scientific moon shot, and we landed on the moon."</p>
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 article">
-            <img class="img-responsive" src="images/main/main2.jpg">
-            <div class="article-text">
-              <h2 class="article-cat">Sponser Insight</h2>
-              <h2 class="article-title">The Best Universities of Asia</h2>
-              <p class="article-info">"Universities from Asia and Europe are challenging the best schools in the USA.
-                When it comes to choosing the right school then, the options have never been more diverse..."</p>
+            <div id="sponsor">
+              <img class="img-responsive" src="images/main/main2.jpg">
+              <div class="article-text">
+                <h2 class="article-cat"><a id="sponsor-blue" href="#">Sponsor Insight</a></h2>
+                <h2 class="article-title"><a href="#">The Best Universities of Asia</a></h2>
+                <p class="article-summary">"Universities from Asia and Europe are challenging the best schools in the
+                  USA.
+                  When it comes to choosing the right school then, the options have never been more diverse..."</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="col-xs-12 col-md-3">
+      <div class="col-xs-12 col-md-3 sidebar">
         <!--Side Menu-->
-        <h3 class="additional-articles">Latest Headlines</h3>
-        <ul class="article-list">
-          <li><a href="#">Harriet Harman: The New Law on Gender Pay was Labour's</a></li>
-          <li><a href="#">French Court Will Hear Facebook Nude Painting Case</a></li>
-          <li><a href="#">Roif Harris Faces Seven Indecent Assault Charges</a></li>
-          <li><a href="#">U.K. Airbnb Host Rejects Israeli for 'Occupying Lands'</a></li>
-          <li><a href="#">Watch: Real Madrid's Pepe Gets into Valentine's Spirit</a></li>
-          <li><a href="#">Indonesia Blocking Gay Emojis From Facebook, Whatsapp</a></li>
-          <li><a href="#">Mourinho and Woodward 'Cannot Have Spoken' - Van Gaal</a></li>
-          <li><a href="#">Rwanda to Relocate Burundian Refugees</a></li>
-          <li class="last-list-item">
-            <div class="see-all">
-              <button class="see-all-button">See All Headlines</button>
-            </div>
-          </li>
-        </ul>
+        <div class="nav nav-sidebar">
+          <h3 class="additional-articles">Latest Headlines</h3>
+          <ul class="article-list">
+            <li class="list-item"><a class="bullet-a" href="#">Harriet Harman: The New Law on Gender Pay was Labour's</a></li>
+            <li class="list-item"><a class="bullet-a" href="#">French Court Will Hear Facebook Nude Painting Case</a></li>
+            <li class="list-item"><a class="bullet-a" href="#">Roif Harris Faces Seven Indecent Assault Charges</a></li>
+            <li class="list-item"><a class="bullet-a" href="#">U.K. Airbnb Host Rejects Israeli for 'Occupying Lands'</a></li>
+            <li class="list-item"><a class="bullet-a" href="#">Watch: Real Madrid's Pepe Gets into Valentine's Spirit</a></li>
+            <li class="list-item"><a class="bullet-a" href="#">Indonesia Blocking Gay Emojis From Facebook, Whatsapp</a></li>
+            <li class="list-item"><a class="bullet-a" href="#">Mourinho and Woodward 'Cannot Have Spoken' - Van Gaal</a></li>
+            <li class="list-item"><a class="bullet-a" href="#">Rwanda to Relocate Burundian Refugees</a></li>
+            <li class="last-list-item">
+              <div class="see-all">
+                <button class="see-all-button">See All Headlines</button>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
-
     </div>
   </div>
 
